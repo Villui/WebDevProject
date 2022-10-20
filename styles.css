@@ -215,6 +215,17 @@
 }
 
 .uudise-sisu {
+  padding-left: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  align-items: center;
   display: flex;
   flex-wrap: flex wrap;
+  gap: 12px;
+  text-align: justify;
+}
+
+.uudisepilt {
+  width: 158px;
+  height: 158px;
 }
