@@ -107,3 +107,83 @@
   cursor: pointer;
   margin-bottom: -10%;
 }
+
+.meist-container {
+  display: flex;
+  flex-wrap: row wrap;
+  background-color: #E5E9F2;
+  margin: 30px;
+}
+
+.body-h1{
+  margin-left: 30px;
+  margin-top: 10px;
+  color: #47525E;
+  font-family: Lato;
+  font-size: 40px;
+  text-align: left;
+}
+
+.meist-container p{
+  margin-left: 30px;
+  color: #5a6978;
+  font-family: Lato;
+  font-size: 18px;
+  text-align: left;
+}
+
+.meist-container div {
+  width: 50%;
+}
+
+.minu-div {
+  display: flex;
+  flex-wrap: flex wrap;
+}
+
+.aegubheader {
+  margin-left: 30px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-size: 24px;
+  color: #77D353;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1 auto auto;
+}
+.grid-item {
+  color: #47525E;
+  font-family: Lato;
+  margin-left: 20px;
+  padding: 10px;
+  font-size: 26px;
+  text-align: left;
+}
+
+.minu-andmed {
+  width: 60%;
+  background-color: #E5E9F2;
+  margin: 30px;
+}
+
+.laenutuste-info {
+  width: 40%;
+  background-color: #77D353;
+}
+
+.laenutused-h2 {
+  margin-top: 30px;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
+
+.grid-item-laenutatud {
+  margin: 10px;
+  font-size: 18px;
+  color: white;
+  font-family: Lato;
+  text-align: center;
+}
