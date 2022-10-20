@@ -187,3 +187,28 @@
   font-family: Lato;
   text-align: center;
 }
+
+.uudised-div {
+  width: 60%;
+  margin: 30px;
+}
+
+.uudis-div {
+  background-color: #e5e9f2;
+}
+
+.uudised-h1 {
+  color: #47525E;
+  font-weight: bold;
+  font-family: Lato;
+  font-size: 30px;
+  text-align: left;
+}
+
+.uudis-h1 {
+  padding: 10px;
+  color: #47525E;
+  font-family: Lato;
+  font-size: 24px;
+  text-align: left;
+}
