@@ -79,6 +79,7 @@
 }
 .form-box {
   padding: 7%;
+  border-radius: 5px;
 }
 .button-liitu {
   background-color: #77d353;
@@ -88,6 +89,7 @@
   padding-left: 10%;
   padding-right: 10%;
   cursor: pointer;
+  border-radius: 5px;
 }
 .socials {
   margin-left: 20%;
@@ -110,30 +112,28 @@
 
 .meist-container {
   display: flex;
-  flex-wrap: row wrap;
-  background-color: #E5E9F2;
+  background-color: #e5e9f2;
   margin: 30px;
+  padding: 36px;
+  justify-content: space-between;
+  gap: 5%;
 }
 
-.body-h1{
+.body-h1 {
   margin-left: 30px;
   margin-top: 10px;
-  color: #47525E;
+  color: #47525e;
   font-family: Lato;
   font-size: 40px;
   text-align: left;
 }
 
-.meist-container p{
+.meist-container p {
   margin-left: 30px;
   color: #5a6978;
   font-family: Lato;
   font-size: 18px;
   text-align: left;
-}
-
-.meist-container div {
-  width: 50%;
 }
 
 .minu-div {
@@ -146,15 +146,15 @@
   margin-top: 30px;
   margin-bottom: 10px;
   font-size: 24px;
-  color: #77D353;
+  color: #77d353;
 }
 
 .grid-container {
   display: grid;
-  grid-template-columns: 1 auto auto;
+  grid-template-columns: auto auto;
 }
 .grid-item {
-  color: #47525E;
+  color: #47525e;
   font-family: Lato;
   margin-left: 20px;
   padding: 10px;
@@ -164,13 +164,13 @@
 
 .minu-andmed {
   width: 60%;
-  background-color: #E5E9F2;
+  background-color: #e5e9f2;
   margin: 30px;
 }
 
 .laenutuste-info {
   width: 40%;
-  background-color: #77D353;
+  background-color: #77d353;
 }
 
 .laenutused-h2 {
@@ -180,12 +180,24 @@
   font-size: 30px;
 }
 
-.grid-item-laenutatud {
+.grid-item-laenutatud-side {
   margin: 10px;
   font-size: 18px;
   color: white;
   font-family: Lato;
   text-align: center;
+}
+.grid-container-side {
+  display: grid;
+  grid-template-columns: 1 auto auto;
+}
+.grid-item-side {
+  color: #47525e;
+  font-family: Lato;
+  margin-left: 20px;
+  padding: 10px;
+  font-size: 26px;
+  text-align: left;
 }
 
 .uudised-div {
@@ -199,7 +211,7 @@
 }
 
 .uudised-h1 {
-  color: #47525E;
+  color: #47525e;
   font-weight: bold;
   font-family: Lato;
   font-size: 30px;
@@ -208,7 +220,7 @@
 
 .uudis-h1 {
   padding: 10px;
-  color: #47525E;
+  color: #47525e;
   font-family: Lato;
   font-size: 24px;
   text-align: left;
@@ -228,4 +240,32 @@
 .uudisepilt {
   width: 158px;
   height: 158px;
+}
+#carouselExampleIndicators {
+  max-width: 100%;
+  width: 100%;
+}
+#carouselExampleIndicators img {
+  object-fit: fill;
+  width: 500px;
+  height: 500px;
+}
+.minu-andmed-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+}
+.button-muuda {
+  background-color: #77d353;
+  color: white;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  padding-left: 10%;
+  padding-right: 10%;
+  cursor: pointer;
+  border-radius: 5px;
+}
+#muuda-andmeid {
+  color: white;
 }

@@ -22,7 +22,7 @@
       </div>
       <div>
         <ul class="nav nav-pills">
-          <li id="active" class="nav-item">
+          <li class="nav-item">
             <a class="nav-link" href="index.html">Avaleht</a>
           </li>
           <li class="nav-item">
@@ -31,7 +31,7 @@
           <li class="nav-item">
             <a class="nav-link" href="#">Hinnakiri</a>
           </li>
-          <li class="nav-item">
+          <li id="active" class="nav-item">
             <a class="nav-link disabled" href="minuandmed.html">Minu Andmed</a>
           </li>
           <li class="nav-item">
@@ -49,71 +49,94 @@
 
     <main>
       <div class="minu-div">
-        <div class="uudised-div">
-          <h1 class="uudised-h1">Uudised</h1>
-          <div class="uudis-div">
-            <h1 class="uudis-h1">Uudis1</h1>
-            <div class="uudise-sisu">
-              <img class="uudisepilt" src="assets/aaa.jpg" alt="uudis-1" />
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
-                cursus nec turpis in ornare. Aenean vehicula eros finibus nisi
-                ullamcorper ornare. Orci varius natoque penatibus et magnis dis
-                parturient montes, nascetur ridiculus mus. Phasellus in lacus
-                tincidunt ex euismod fermentum ut sed dolor. Ut nec ante sapien.
-                Vivamus et lacus suscipit, semper sem sed, interdum massa. Donec
-                at ullamcorper velit. Donec sodales a est vulputate consequat.
-                Sed feugiat eros nulla, non tincidunt nulla euismod eget. Nulla
-                euismod, ex vulputate volutpat fringilla, est mauris ornare
-                felis, sit amet ornare mauris odio non ex. In ullamcorper nisl
-                non lacus finibus, eget bibendum mi viverra. Sed vel velit eget
-                orci posuere porttitor. Donec lobortis justo quis interdum
-                sollicitudin. Nunc ultrices lacinia sem, eget tincidunt ipsum
-                interdum eu.
-              </p>
+        <div class="minu-andmed">
+          <h1 class="body-h1">Minu Andmed</h1>
+          <form action="">
+            <div class="grid-container">
+              <div class="grid-item">Eesnimi:</div>
+              <input
+                class="form-box-andmed"
+                type="text"
+                name="nimi"
+                id="nimi"
+                value="nimi"
+              />
+              <div class="grid-item">Perekonnanimi:</div>
+              <input
+                class="form-box-andmed"
+                type="text"
+                name="pere"
+                id="pere"
+                value="pere"
+              />
+              <div class="grid-item">E-post:</div>
+              <input
+                class="form-box-andmed"
+                type="text"
+                name="email"
+                id="email"
+                value="email"
+              />
+              <div class="grid-item">Aadress:</div>
+
+              <div class="grid-item">
+                <div class="display:flex;">
+                  <input
+                    style="width: 70%"
+                    class="form-box-andmed"
+                    type="text"
+                    name="aadress"
+                    id="aadress"
+                    value="aadress"
+                  />
+                  <input
+                    style="width: 20%"
+                    class="form-box-andmed"
+                    type="text"
+                    name="index"
+                    id="index"
+                    value="index"
+                  />
+                </div>
+              </div>
+              <div class="grid-item">Telefon:</div>
+              <input
+                style="width: 70%"
+                class="form-box-andmed"
+                type="text"
+                name="number"
+                id="number"
+                value="number"
+              />
             </div>
-          </div>
-          <div class="uudis-div">
-            <h1 class="uudis-h1">Uudis2</h1>
-            <div class="uudise-sisu">
-              <img class="uudisepilt" src="assets/bbb.jpg" alt="uudis-2" />
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Vestibulum elementum dolor ut elit iaculis, vitae accumsan nisl
-                porta. Interdum et malesuada fames ac ante ipsum primis in
-                faucibus. Proin non orci tortor. Duis convallis placerat lectus
-                vitae tristique. Nullam bibendum elit in arcu tempus vulputate.
-                Suspendisse eget mi id leo bibendum egestas eget non arcu. Donec
-                laoreet velit ac odio molestie, sed porta est suscipit.
-              </p>
+          </form>
+          <div class="minu-andmed-footer">
+            <div>
+              <h2 class="aegubheader"></h2>
+            </div>
+            <div>
+              <button class="button-muuda" type="button">
+                <a id="muuda-andmeid" href="/minuandmed.html">Muuda andmeid</a>
+              </button>
             </div>
           </div>
         </div>
         <div class="laenutuste-info">
-          <h2 class="laenutused-h2">2022 aasta laenutuste TOP 10</h2>
+          <h2 class="laenutused-h2">Hetkel Laenutatud</h2>
           <div class="grid-container-side">
             <div class="grid-item-laenutatud-side">
-              1. "Kus laulavad langustid"
+              "Elu ja armastus" - A. H. Tammsaare TÄHTAEG: 12.11.2022
             </div>
             <div class="grid-item-laenutatud-side">
-              2. "Väike nurgapood. Taaskohtumine"
+              "Kevade" - O. Luts TÄHTAEG: 30.10.2022
             </div>
-            <div class="grid-item-laenutatud-side">3. "Minu Viljandi"</div>
-            <div class="grid-item-laenutatud-side">4. "Väike nurgapood"</div>
-            <div class="grid-item-laenutatud-side">
-              5. "Võtku homme mind või saatan"
-            </div>
-            <div class="grid-item-laenutatud-side">
-              6. "Väike nurgapood. Kingitus"
-            </div>
-            <div class="grid-item-laenutatud-side">7. "Tobias ja teine B"</div>
-            <div class="grid-item-laenutatud-side">8. "Liblikatuba"</div>
-            <div class="grid-item-laenutatud-side">
-              9. "Armastatu viimane kiri"
-            </div>
-            <div class="grid-item-laenutatud-side">
-              10. "Kolmanda A kriminalistid"
-            </div>
+          </div>
+          <h2 class="laenutused-h2">Laenutuste ajalugu</h2>
+          <div class="grid-container-side">
+            <div class="grid-item-laenutatud-side">"Talve" - O. Luts</div>
+            <div class="grid-item-laenutatud-side">"Suvi" - O. Luts</div>
+            <div class="grid-item-laenutatud-side">"Sügis" - O. Luts</div>
+            <div class="grid-item-laenutatud-side">"Pisuhänd" - E. Vilde</div>
           </div>
         </div>
       </div>
@@ -122,7 +145,7 @@
       <div class="footer-nav-el1">
         <ul>
           <li>
-            <a href="#">Avaleht</a>
+            <a href="/index.html">Avaleht</a>
           </li>
           <li>
             <a href="/meist.html">Meist</a>
@@ -131,7 +154,7 @@
             <a href="#">Hinnakiri</a>
           </li>
           <li>
-            <a href="/minuandmed.html">Minu andmed</a>
+            <a href="#">Minu andmed</a>
           </li>
           <li>
             <a href="#">Kontakt</a>
